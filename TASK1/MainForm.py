@@ -135,7 +135,7 @@ class Ui_MainForm(object):
         positions = 0
         # Run analysis
         position_actions = {
-            1: self.Canvas.greenPolygon,
+            1:  self.Canvas.greenPolygon,
             2: self.Canvas.greenPolygon,
             3: self.Canvas.greenPolygon
         }
