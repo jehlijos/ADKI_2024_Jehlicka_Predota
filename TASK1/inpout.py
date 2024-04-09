@@ -41,8 +41,7 @@ class IO:
     def scaleAndTranslatePolygons(self, polygons, s, shift_x, shift_y):
         # Method to scale and translate polygons
 
-        # Creating scaled and translated polygon
-        # Iterating through each polygon
+        # Creating scaled and translated polygon iterating through each polygon
         Data = [QPolygonF([QPointF(point.x() * s - shift_x, point.y() * s - shift_y)
                            for point in pol]) for pol in polygons]
         return Data
